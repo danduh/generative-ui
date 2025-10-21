@@ -1,0 +1,91 @@
+{
+  "name": "fems",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/fems/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "defaultConfiguration": "development",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/fems",
+        "index": "apps/fems/src/index.html",
+        "baseHref": "/",
+        "main": "apps/fems/src/main.ts",
+        "tsConfig": "apps/fems/tsconfig.app.json",
+        "assets": [
+          "apps/fems/src/favicon.ico",
+          "apps/fems/src/assets"
+        ],
+        "styles": [
+          "apps/fems/src/styles.css"
+        ],
+        "scripts": [],
+        "webpackConfig": "apps/fems/webpack.config.ts",
+        "postcssConfig": "apps/fems/postcss.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/fems/src/environments/environment.ts",
+              "with": "apps/fems/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": true,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "webpackConfig": "apps/fems/webpack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/react:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "fems:build",
+        "hmr": true,
+        "port": 4201,
+        "sourceMap": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "fems:build:development"
+        },
+        "production": {
+          "buildTarget": "fems:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/react:module-federation-static-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "serveTarget": "fems:serve"
+      },
+      "configurations": {
+        "development": {
+          "serveTarget": "fems:serve:development"
+        },
+        "production": {
+          "serveTarget": "fems:serve:production"
+        }
+      }
+    }
+  }
+}

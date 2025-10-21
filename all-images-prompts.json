@@ -1,0 +1,126 @@
+{
+    "styles": [
+      {"styleName":"Photorealistic","description":"Looks like a real-life photograph with natural colors and realistic lighting.","aspectRatio":"landscape","prompts":{"nature":"A family enjoying a picnic near a peaceful river surrounded by lush trees, grass fields, and small animals like deer and birds. Clear blue sky, natural sunlight. Photorealistic style. Highly detailed, realistic lighting, realistic people and nature, vibrant but natural colors. Landscape orientation.","urban":"A busy city street during a sunny afternoon, filled with people walking, yellow taxis, tall modern buildings, and shops. Reflections on windows, light traffic, and vibrant city life. Photorealistic style. Highly detailed, realistic lighting and textures, vivid yet true-to-life colors. Landscape orientation.","futuristic":"A modern futuristic home interior where a family is interacting with humanoid AI robots. Sleek minimalistic furniture, smart home screens, soft natural light coming from large windows. Photorealistic style. Highly detailed, realistic human and robot designs, warm and futuristic atmosphere, natural color palette. Landscape orientation."}},
+  
+      {"styleName":"Watercolor Painting","description":"Soft, flowing colors with gentle brush strokes typical of watercolor artworks.","aspectRatio":"landscape","prompts":{"nature":"A family having a picnic by a serene river, surrounded by trees and playful animals, painted in a soft watercolor style with light brush strokes and a dreamy atmosphere. Landscape orientation.","urban":"A busy urban street scene with people walking, colorful buildings, and cars, captured in a gentle watercolor painting style with diffused edges and pastel tones. Landscape orientation.","futuristic":"A futuristic home interior with a family interacting with helpful AI robots, depicted in delicate watercolor brush strokes with soft futuristic elements and muted tones. Landscape orientation."}},
+  
+      {"styleName":"Oil Painting","description":"Rich, textured classical painting style with bold colors and deep brushwork.","aspectRatio":"landscape","prompts":{"nature":"A vibrant oil painting of a family picnic near a lively river, surrounded by thick textured trees and colorful animals, with rich brush strokes and deep contrasts. Landscape orientation.","urban":"An oil painting showing a bustling city street, vivid colors of cars and buildings, thick paint textures, and dynamic street life captured with dramatic brushwork. Landscape orientation.","futuristic":"A richly textured oil painting of a futuristic home, with a family interacting with AI robots in a warmly lit modern environment. Strong brush strokes and layered paint. Landscape orientation."}},
+  
+      {"styleName":"Comic Book Style","description":"Vivid, sharp outlines and flat colors resembling graphic novels.","aspectRatio":"landscape","prompts":{"nature":"A family picnic near a lively river with bright trees and playful animals, depicted in bold outlines and vibrant comic book colors. Landscape orientation.","urban":"A colorful comic book style busy city street filled with people, cars, and vibrant buildings, featuring sharp lines and flat vivid colors. Landscape orientation.","futuristic":"A futuristic home interior with a family and helper robots illustrated in comic book style, with exaggerated features and dynamic action poses. Landscape orientation."}},
+  
+      {"styleName":"Manga/Anime","description":"Japanese comic style featuring expressive characters and clean shading.","aspectRatio":"landscape","prompts":{"nature":"An anime-style family picnic scene by a river with large-eyed characters, vibrant trees, and cute animals, colorful and dynamic with clean shading. Landscape orientation.","urban":"A manga-style bustling city scene with expressive people, detailed cars, and towering buildings, using dramatic perspectives and clean tones. Landscape orientation.","futuristic":"A futuristic anime home scene with a friendly family and sleek helper robots, detailed backgrounds, and glowing tech elements. Landscape orientation."}},
+  
+      {"styleName":"Cartoon","description":"Simplified, exaggerated features and bright colors for a playful look.","aspectRatio":"landscape","prompts":{"nature":"A cartoon-style picnic with cheerful characters, exaggerated trees, colorful animals, and bright sunny day by the river. Landscape orientation.","urban":"A bustling cartoon city street full of colorful cars, happy pedestrians, and exaggerated tall buildings under a bright blue sky. Landscape orientation.","futuristic":"A cartoon futuristic home where a lively family interacts with friendly, funny-looking AI robots in a colorful, futuristic setting. Landscape orientation."}},
+  
+      {"styleName":"3D Render","description":"Highly detailed computer-generated imagery with realistic textures and depth.","aspectRatio":"landscape","prompts":{"nature":"A hyper-realistic 3D render of a family picnic by a river surrounded by detailed trees and animals, clear sky, and lush environment. Landscape orientation.","urban":"A busy 3D rendered city street, glossy textures on cars, detailed building reflections, lively pedestrians and realistic lighting. Landscape orientation.","futuristic":"A sleek 3D render of a futuristic home with smart furniture, a smiling family, and humanoid AI robots assisting daily life. Landscape orientation."}},
+  
+      {"styleName":"Flat Design","description":"Minimalist two-dimensional style using simple shapes and solid colors.","aspectRatio":"landscape","prompts":{"nature":"A flat design illustration of a family picnic by a river, simple tree shapes, stylized animals, and clean solid colors. Landscape orientation.","urban":"A flat design colorful city street with minimalistic people and cars, geometric buildings, and a sunny sky. Landscape orientation.","futuristic":"A flat design future home with basic shapes representing family members, robots, and futuristic devices in a colorful, simple layout. Landscape orientation."}},
+      {"styleName":"Line Art","description":"Black and white outlines creating simple but striking compositions.","aspectRatio":"landscape","prompts":{"nature":"A family picnic drawn with clean line art, trees, river, and playful animals, no colors, only detailed outlines. Landscape orientation.","urban":"A busy city street drawn in black and white line art, showing cars, pedestrians, and tall buildings with intricate outlines. Landscape orientation.","futuristic":"A futuristic home with robots and a family drawn in clean black-and-white line art with sharp futuristic designs. Landscape orientation."}},
+      {"styleName":"Cyberpunk","description":"Futuristic, neon-lit, dark and gritty atmosphere.","aspectRatio":"landscape","prompts":{"nature":"A cyberpunk twist on nature: a neon-lit riverbank surrounded by glowing bioengineered trees and mechanical animals, with a family having a picnic. Dark moody background. Landscape orientation.","urban":"A dense cyberpunk city street with neon signs, flying cars, crowds in futuristic outfits, and towering skyscrapers lit in pink and blue. Landscape orientation.","futuristic":"A futuristic cyberpunk home with neon ambient lights, a family assisted by sleek AI robots, holographic screens around. Gritty yet colorful. Landscape orientation."}},
+
+      {"styleName":"Synthwave","description":"80s retro-futuristic style with neon grids, pink-purple sunsets, and chrome effects.","aspectRatio":"landscape","prompts":{"nature":"A synthwave-styled picnic by a river with neon palm trees, a pink-purple sunset in the background, and glowing wildlife. Landscape orientation.","urban":"A synthwave busy city scene with neon grids on streets, retro-futuristic cars, people in 80s-inspired futuristic clothing. Landscape orientation.","futuristic":"A synthwave futuristic home scene with chrome furniture, holograms, neon lighting, and a nostalgic 80s vibe. Landscape orientation."}},
+  
+      {"styleName":"Fantasy","description":"Magical, mythical settings full of wonder and enchanted elements.","aspectRatio":"landscape","prompts":{"nature":"A magical fantasy picnic in an enchanted forest with glowing trees, floating lights, mythical animals like unicorns, and a family enjoying a feast. Landscape orientation.","urban":"A medieval fantasy town market scene, bustling with humans, elves, and dwarves, colorful medieval architecture. Landscape orientation.","futuristic":"A floating fantasy castle home blending futuristic and magical elements, family and friendly magical AI creatures interact under enchanted skies. Landscape orientation."}},
+  
+      {"styleName":"Sci-Fi","description":"High-tech, futuristic science fiction visuals with advanced technology.","aspectRatio":"landscape","prompts":{"nature":"A sci-fi picnic on an alien planet with a family under multiple suns, exotic alien plants, and hovering robotic pets. Landscape orientation.","urban":"A futuristic sci-fi mega-city with towering skyscrapers, flying cars, and crowds moving along elevated walkways. Landscape orientation.","futuristic":"A sci-fi futuristic home with sleek surfaces, smart devices, robots serving food, and a family immersed in holographic environments. Landscape orientation."}},
+      {"styleName":"Steampunk","description":"Victorian-era industrial technology with steam-powered machinery.","aspectRatio":"landscape","prompts":{"nature":"A steampunk picnic by a river with mechanical trees, steam-powered animals, and a family in Victorian clothes surrounded by gears and brass devices. Landscape orientation.","urban":"A bustling steampunk city with airships overhead, people in Victorian outfits, cobblestone streets, and brass machinery shops. Landscape orientation.","futuristic":"A steampunk-inspired futuristic home filled with intricate gears, copper pipes, steam-driven robots serving a family dressed in vintage futuristic fashion. Landscape orientation."}},
+
+      {"styleName":"Post-apocalyptic","description":"Ruined, deserted landscapes with survivalist atmosphere.","aspectRatio":"landscape","prompts":{"nature":"A post-apocalyptic picnic scene with a family sitting near a river surrounded by barren, broken trees, abandoned structures, and scavenging animals. Landscape orientation.","urban":"A ruined post-apocalyptic city street, collapsed buildings, overgrown vegetation reclaiming cars and roads, scattered survivors walking. Landscape orientation.","futuristic":"A crumbling futuristic home with salvaged technology, a survivalist family using repurposed robots in a desolate wasteland. Landscape orientation."}},
+  
+      {"styleName":"Surreal","description":"Dream-like, bizarre compositions that defy reality.","aspectRatio":"landscape","prompts":{"nature":"A surreal picnic by a river with floating trees, upside-down mountains, giant colorful animals, and a family sitting on a hovering blanket. Landscape orientation.","urban":"A surreal urban scene with melting skyscrapers, fish swimming through air, and people walking upside-down on invisible streets. Landscape orientation.","futuristic":"A surreal futuristic home twisted with impossible geometries, dreamlike floating rooms, and family members interacting with ghostly AI beings. Landscape orientation."}},
+  
+      {"styleName":"Minimalist","description":"Extreme simplicity focusing on few essential elements with lots of empty space.","aspectRatio":"landscape","prompts":{"nature":"A minimalist picnic scene with a single stylized tree, a river line, a few simple figures representing a family, and a calm muted background. Landscape orientation.","urban":"A minimalist urban street scene using basic geometric shapes for buildings, cars, and people, all sparsely arranged. Landscape orientation.","futuristic":"A minimalist futuristic home represented by sleek simple shapes, a minimalistic family silhouette, and smooth ambient lighting. Landscape orientation."}},
+  
+      {
+        "styleName": "Isometric View",
+        "description": "3D-like view from an elevated angle, popular in diagrams and games.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "An isometric view of a family picnic near a river, with stylized trees, paths, and small animals arranged geometrically. Landscape orientation.",
+          "urban": "An isometric city block with cars, people, and detailed buildings arranged in neat, clean lines from a high angle. Landscape orientation.",
+          "futuristic": "An isometric futuristic home with floating platforms, family members interacting with robots, smart gardens and tech details. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "Film Noir",
+        "description": "Moody, high-contrast black-and-white visuals inspired by 1940s detective movies.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "A film noir-style picnic scene, deep shadows around a misty riverbank, silhouetted trees, and a family in old-fashioned clothing. Black and white. Landscape orientation.",
+          "urban": "A dark city alley in film noir style with vintage cars, trench-coated figures, rainy streets, and intense contrast. Landscape orientation.",
+          "futuristic": "A futuristic noir home interior with moody lighting, long shadows, vintage futuristic furniture, and serious-looking AI assistants. Black and white. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "Vintage Photo",
+        "description": "Old-timey, slightly faded colors and grainy textures like early color photographs.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "A vintage photo style family picnic by a river, muted tones, slight grain, and nostalgic 1950s feeling. Landscape orientation.",
+          "urban": "A bustling vintage photo city street with classic cars, old-fashioned dress, and slightly washed-out colors. Landscape orientation.",
+          "futuristic": "A futuristic home scene imagined in a vintage style, retro-futuristic tech and family captured in faded nostalgic colors. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "Sepia Tone",
+        "description": "Brownish warm tones giving an antique, nostalgic feeling.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "A sepia-toned family picnic scene near a rustic riverbank, surrounded by warm brown and golden hues. Landscape orientation.",
+          "urban": "An old city street bustling with life, captured in sepia tones, with vintage vehicles and bustling market scenes. Landscape orientation.",
+          "futuristic": "A sepia-toned futuristic home where old-world charm meets advanced AI tech in a nostalgic visual style. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "HDR (High Dynamic Range)",
+        "description": "Extremely vivid colors and high detail across shadows and highlights.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "An HDR picnic scene by a river with hyper-realistic lighting, vibrant greens, colorful animals, and sparkling water. Landscape orientation.",
+          "urban": "An HDR city street bursting with color, deep shadows, and stunning bright details on every surface. Landscape orientation.",
+          "futuristic": "An HDR futuristic home with gleaming surfaces, brightly lit AI devices, and colorful family activities in extreme sharpness. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "Soft Focus / Dreamy",
+        "description": "Gentle, slightly blurred imagery creating a romantic or dreamy atmosphere.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "A dreamy soft-focus picnic near a river with blurry trees, pastel colors, and glowing light surrounding a family. Landscape orientation.",
+          "urban": "A dreamy city street scene with soft edges, golden light reflections, and a warm romantic feel. Landscape orientation.",
+          "futuristic": "A soft-focus futuristic home, smooth glowing surfaces, smiling family members and helper robots blurred gently into a dreamy scene. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "Bokeh Effect",
+        "description": "Sharp foreground with blurred sparkling background lights.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "A family picnic in focus with the background river, trees, and lights rendered into a beautiful bokeh blur. Landscape orientation.",
+          "urban": "A lively urban street with a sharp focus on a walking figure while city lights and cars melt into colorful bokeh. Landscape orientation.",
+          "futuristic": "A futuristic home interior where the family is in clear detail and the background glowing AI gadgets and windows create a bokeh effect. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "Top-Down View",
+        "description": "A straight-down vertical perspective, often used in maps and strategy games.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "Top-down view of a family picnic setup near a river with visible checkered blanket, trees, and animals surrounding them. Landscape orientation.",
+          "urban": "Top-down view of a busy city street with moving cars, people, and dense urban structures seen directly from above. Landscape orientation.",
+          "futuristic": "Top-down view of a futuristic home layout with smart furniture, moving robots, and high-tech zones clearly visible. Landscape orientation."
+        }
+      },
+      {
+        "styleName": "Wide-Angle Landscape",
+        "description": "A cinematic, expansive view capturing grand scenery with dramatic depth.",
+        "aspectRatio": "landscape",
+        "prompts": {
+          "nature": "A sweeping wide-angle view of a lush riverside landscape with a family picnic in the foreground and mountains stretching into the distance. Landscape orientation.",
+          "urban": "A grand wide-angle shot of a vibrant city skyline during the day with crowded streets below and towering buildings above. Landscape orientation.",
+          "futuristic": "A wide cinematic view of a sprawling futuristic city with a central futuristic home, busy aerial traffic, and colorful AI life everywhere. Landscape orientation."
+        }
+      }
+    ]
+  }
+  

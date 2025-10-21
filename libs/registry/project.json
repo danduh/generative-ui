@@ -1,0 +1,27 @@
+{
+  "name": "registry",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/registry/src",
+  "projectType": "library",
+  "targets": {
+    "get-schema": {
+      "executor": "registry:schemaBuilder",
+      "options": {
+        "baseSchemaPath": "libs/registry/src/schemas/baseSchema.json",
+        "jsonSchemasDir": "libs/registry/src/schemas/jsonSchemas",
+        "outputFilePath": "libs/registry/src/schemas/combinedSchema.json"
+      }
+    },
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/registry",
+        "main": "libs/registry/src/index.ts",
+        "tsConfig": "libs/registry/tsconfig.lib.json",
+        "assets": ["libs/registry/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

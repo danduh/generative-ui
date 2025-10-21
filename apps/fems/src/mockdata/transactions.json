@@ -1,0 +1,344 @@
+[
+  {
+    "ActivityId": "1659739571",
+    "Icon": "icon-pay-beneficiary__new",
+    "TypeId": 42,
+    "Date": "2025-01-16T05:43:00.967",
+    "PaymentTo": "Amazon Advertising Services Inc",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-1500.00",
+        "Currency": "USD"
+      }
+    },
+    "Account": "4366181919511818",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Completed",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-1500.00",
+      "Currency": "USD",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "USD",
+      "State": null
+    },
+    "HasStatement": true,
+    "ActivityItemStatus": 2,
+    "HasButton": false,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "9876543212",
+    "Icon": "icon-transfer-funds__new",
+    "TypeId": 45,
+    "Date": "2025-01-18T11:25:30.000",
+    "PaymentTo": "Developer Team in Georgia",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-2000.50",
+        "Currency": "EUR"
+      }
+    },
+    "Account": "1234567890123456",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Pending",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-2000.50",
+      "Currency": "EUR",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "EUR",
+      "State": null
+    },
+    "HasStatement": false,
+    "ActivityItemStatus": 1,
+    "HasButton": true,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "1635298420",
+    "Icon": "icon-subscription__active",
+    "TypeId": 50,
+    "Date": "2025-01-15T15:42:10.543",
+    "PaymentTo": "Microsoft Azure",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-3200.00",
+        "Currency": "GBP"
+      }
+    },
+    "Account": "7812345678901234",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Completed",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-3200.00",
+      "Currency": "GBP",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "GBP",
+      "State": null
+    },
+    "HasStatement": true,
+    "ActivityItemStatus": 2,
+    "HasButton": false,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "5298412654",
+    "Icon": "icon-pay-bill__new",
+    "TypeId": 48,
+    "Date": "2025-01-17T09:12:00.432",
+    "PaymentTo": "Amazon Advertising Services Inc",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-1200.00",
+        "Currency": "USD"
+      }
+    },
+    "Account": "6472816478218764",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Pending",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-1200.00",
+      "Currency": "USD",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "USD",
+      "State": null
+    },
+    "HasStatement": false,
+    "ActivityItemStatus": 1,
+    "HasButton": true,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "8975642317",
+    "Icon": "icon-transfer-funds__complete",
+    "TypeId": 44,
+    "Date": "2025-01-20T14:30:15.765",
+    "PaymentTo": "Google Cloud Platform",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-500.75",
+        "Currency": "USD"
+      }
+    },
+    "Account": "7212345678909876",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Completed",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-500.75",
+      "Currency": "USD",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "USD",
+      "State": null
+    },
+    "HasStatement": true,
+    "ActivityItemStatus": 2,
+    "HasButton": false,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "1357986420",
+    "Icon": "icon-pay-bill__new",
+    "TypeId": 43,
+    "Date": "2025-01-19T08:15:55.321",
+    "PaymentTo": "Microsoft Azure",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-2750.00",
+        "Currency": "EUR"
+      }
+    },
+    "Account": "4912345678909876",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Pending",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-2750.00",
+      "Currency": "EUR",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "EUR",
+      "State": null
+    },
+    "HasStatement": false,
+    "ActivityItemStatus": 1,
+    "HasButton": true,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "6482019357",
+    "Icon": "icon-transfer-funds__active",
+    "TypeId": 40,
+    "Date": "2025-01-18T22:45:30.123",
+    "PaymentTo": "Amazon Advertising Services Inc",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-900.00",
+        "Currency": "GBP"
+      }
+    },
+    "Account": "6789345678901234",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Completed",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-900.00",
+      "Currency": "GBP",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "GBP",
+      "State": null
+    },
+    "HasStatement": true,
+    "ActivityItemStatus": 2,
+    "HasButton": false,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "3875491862",
+    "Icon": "icon-subscription__active",
+    "TypeId": 50,
+    "Date": "2025-01-16T12:45:30.456",
+    "PaymentTo": "Google Cloud Platform",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-1800.00",
+        "Currency": "USD"
+      }
+    },
+    "Account": "9871234567890123",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Completed",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-1800.00",
+      "Currency": "USD",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "USD",
+      "State": null
+    },
+    "HasStatement": true,
+    "ActivityItemStatus": 2,
+    "HasButton": false,
+    "StatusTooltipContent": null
+  },
+  {
+    "ActivityId": "2849013756",
+    "Icon": "icon-pay-beneficiary__new",
+    "TypeId": 41,
+    "Date": "2025-01-17T18:30:00.789",
+    "PaymentTo": "Microsoft Azure",
+    "ActivityName": null,
+    "Amount": {
+      "Value": null,
+      "ResKey": "AmountAndCurrency.Text",
+      "ResParams": {
+        "Amount": "-3600.00",
+        "Currency": "EUR"
+      }
+    },
+    "Account": "7412345678905678",
+    "Balance": null,
+    "Status": {
+      "Value": null,
+      "ResKey": "Pending",
+      "ResParams": null
+    },
+    "SplitAmount": {
+      "Amount": "-3600.00",
+      "Currency": "EUR",
+      "State": null,
+      "AmountTooltipContent": null
+    },
+    "SplitBalance": {
+      "Amount": null,
+      "Currency": "EUR",
+      "State": null
+    },
+    "HasStatement": false,
+    "ActivityItemStatus": 1,
+    "HasButton": true,
+    "StatusTooltipContent": null
+  }
+]

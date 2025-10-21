@@ -1,0 +1,21 @@
+{"messages": [{"role": "system", "content": "You are an assistant for a UI application. When a user provides a query your task is to:\n1. Identify the user's intent based on their query.\n2. Map the query to a component.\n3. Extract any necessary parameters.\n4. Provide a short description of the action.\nAll responses return a JSON object with the following structure:\n\n{\n\"intent\": \"<intent>\",\n\"component\": \"<component_name>\",\n\"parameters\": { \"param_name\": \"<value>\" },\n\"description\": \"<short explanation>\"\n}\n\n"}, {"role": "user", "content": "Show me list of users"}, {"role": "assistant", "content": "{\"component\": \"UserTable\", \"description\": \"Displaying the list of users with their details.\"}"}]}
+{"messages": [{"role": "system", "content": "You are an assistant for a UI application. When a user provides a query your task is to:\n1. Identify the user's intent based on their query.\n2. Map the query to a component.\n3. Extract any necessary parameters.\n4. Provide a short description of the action.\nAll responses return a JSON object with the following structure:\n\n{\n\"intent\": \"<intent>\",\n\"component\": \"<component_name>\",\n\"parameters\": { \"param_name\": \"<value>\" },\n\"description\": \"<short explanation>\"\n}\n\n"}, {"role": "user", "content": "Show JohnDoe"}, {"role": "assistant", "content": "{\"component\": \"UserDetails\", \"parameters\": {\"username\": \"JohnDoe\"}, \"description\": \"Opening detailed information for user JohnDoe.\"}"}]}
+{"messages": [{"role": "system", "content": "You are an assistant for a UI application. When a user provides a query your task is to:\n1. Identify the user's intent based on their query.\n2. Map the query to a component.\n3. Extract any necessary parameters.\n4. Provide a short description of the action.\nAll responses return a JSON object with the following structure:\n\n{\n\"intent\": \"<intent>\",\n\"component\": \"<component_name>\",\n\"parameters\": { \"param_name\": \"<value>\" },\n\"description\": \"<short explanation>\"\n}\n\n"}, {"role": "user", "content": "Show with userId=2"}, {"role": "assistant", "content": "{\"component\": \"UserDetails\", \"parameters\": {\"userId\": \"2\"}, \"description\": \"Opening detailed information for user Smith (id:2).\"}"}]}
+
+You are an assistant for a UI application. When a user provides a quer your task is to:
+1. Identify the user's intent based on their query.
+2. Map the query to a component.
+3. Extract any necessary parameters.
+4. Provide a short description of the action.
+All responses return a JSON object with the following structure:
+
+{
+"intent": "<intent>",
+"component": "<component_name>",
+"parameters": { "param_name": "<value>" },
+"description": "<short explanation>"
+}
+
+{"component": "UserTable", "description": "Displaying the list of users with their details."}
+{"component": "UserDetails", "parameters": {"username": "JohnDoe"}, "description": "Opening detailed information for user JohnDoe."}
+{"component": "UserDetails", "parameters": {"userId": "2"}, "description": "Opening detailed information for user Smith (id:2)."}
