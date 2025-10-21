@@ -1,0 +1,45 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@frontai/api-library": ["libs/api-library/src/index.ts"],
+      "@frontai/registry": ["libs/registry/src/index.ts"],
+      "@frontai/registry/*": ["libs/registry/src/*"],
+      "@frontai/types": ["libs/types/src/index.ts"],
+      "avatar/AvatarLiveView": [
+        "apps/avatar/src/app/exposed_modules/AvatarLiveView.tsx"
+      ],
+      "avatar/VoiceRecognitionExtra": [
+        "apps/avatar/src/app/exposed_modules/VoiceRecognitionExtra.tsx"
+      ],
+      "fems/BalancesView": ["apps/fems/src/exposed_modules/BalancesView.tsx"],
+      "fems/ContextDisplay": [
+        "apps/fems/src/exposed_modules/ContextDisplay.tsx"
+      ],
+      "fems/EditUserForm": ["apps/fems/src/exposed_modules/EditUserForm.tsx"],
+      "fems/Module": ["apps/fems/src/remote-entry.ts"],
+      "fems/TransactionDetails": [
+        "apps/fems/src/exposed_modules/TransactionDetails.tsx"
+      ],
+      "fems/TransactionsList": [
+        "apps/fems/src/exposed_modules/TransactionsList.tsx"
+      ],
+      "fems/UserDetails": ["apps/fems/src/exposed_modules/UserDetails.tsx"],
+      "fems/UsersTable": ["apps/fems/src/exposed_modules/UsersTable.tsx"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

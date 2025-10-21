@@ -1,0 +1,69 @@
+{
+  "name": "avatar",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/avatar/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/rspack:rspack",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "defaultConfiguration": "production",
+      "options": {
+        "envFile": ".env",
+        "target": "web",
+        "outputPath": "dist/apps/avatar",
+        "index": "apps/avatar/src/index.html",
+        "main": "apps/avatar/src/main.ts",
+        "tsConfig": "apps/avatar/tsconfig.app.json",
+        "rspackConfig": "apps/avatar/rspack.config.ts",
+        "assets": [
+          "apps/avatar/src/favicon.ico",
+          "apps/avatar/src/assets"
+        ]
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production",
+          "optimization": true,
+          "sourceMap": false,
+          "rspackConfig": "apps/avatar/rspack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/rspack:module-federation-dev-server",
+      "options": {
+        "envFile": ".env",
+        "buildTarget": "avatar:build:development",
+        "port": 4202
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "buildTarget": "avatar:build:production"
+        }
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/rspack:module-federation-static-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "serveTarget": "avatar:serve"
+      },
+      "configurations": {
+        "development": {
+          "serveTarget": "avatar:serve:development"
+        },
+        "production": {
+          "serveTarget": "avatar:serve:production"
+        }
+      }
+    }
+  }
+}

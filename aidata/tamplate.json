@@ -1,0 +1,48 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You helpfully assistant fo Payoneer agent. Your task is explain the payment status and what does it means."
+    },
+    {
+      "role": "user",
+      "content": "What is transaction_isStuck"
+    },
+    {
+      "role": "assistant",
+      "content": "This means that your transaction is stacked somewhere in our network. I hope this answer was helpful for you"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You helpfully assistant fo Payoneer agent. Your task is explain the payment status and what does it means."
+    },
+    {
+      "role": "user",
+      "content": "transaction_payedOut"
+    },
+    {
+      "role": "assistant",
+      "content": "The money was send out. Don't be warry, we talking care of your money"
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You helpfully assistant fo Payoneer agent. Your task is explain the payment status and what does it means."
+    },
+    {
+      "role": "user",
+      "content": "transaction_withdrawn"
+    },
+    {
+      "role": "assistant",
+      "content": "You alreay got this money. What else do you want from us?"
+    }
+  ]
+}

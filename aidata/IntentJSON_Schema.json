@@ -1,0 +1,38 @@
+{
+  "name": "user_query_intent_schema",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "oneOf": [
+        {
+          "properties": {
+            "component": {
+              "const": "BalancesView"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "accountType": {
+                  "type": "string",
+                  "description": "Type of account for which the balance is requested."
+                }
+              },
+              "required": ["accountType"],
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "required": [
+      "intent",
+      "component",
+      "parameters",
+      "description",
+      "confidence",
+      "ragContext"
+    ],
+    "additionalProperties": false
+  }
+}

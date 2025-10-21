@@ -1,0 +1,14 @@
+{
+  "executors": {
+    "schemaBuilderd": {
+      "implementation": "./src/schemas/schemaBuilder",
+      "schema": "./src/schemas/schema.json",
+      "description": "schemaBuilder executor"
+    },
+    "schemaBuilder": {
+      "implementation": "./src/schemas/schemaBuilder",
+      "schema": "./src/schemas/schema.json",
+      "description": "schemaBuilder executor"
+    }
+  }
+}
