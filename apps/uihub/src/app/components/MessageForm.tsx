@@ -10,34 +10,37 @@ const MessageForm: React.FC<{
   handleSpeechDone: any
 }> = ({ message, onChange, onSubmit, setMessage , handleSpeechDone}) => {
   return (
-    <div className="p-4 border-t border-gray-200">
-      <div className="flex items-center gap-2">
-        <div className="relative flex-grow">
+    <div className="p-4">
+      <div className="bg-white/90 border-2 border-[#da54d8] rounded-[24px] p-4 flex items-center gap-4">
+        <div className="flex-grow flex items-center gap-4">
           <input
             type="text"
             value={message}
             onChange={onChange}
-            className="w-full p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent pr-10"
-            placeholder="Ask me anything..."
+            className="w-full bg-transparent focus:outline-none text-[16px] leading-[22px] placeholder:text-[#878787]"
+            placeholder="Ask me anything"
+            style={{ fontFamily: 'Avenir Next World, sans-serif', fontWeight: 500 }}
           />
-          <div className="flex absolute inset-y-0 right-0 items-center pr-2">
-            <button
-              type="button"
-              className="p-1 hover:bg-gray-100 rounded-full transition-colors"
-            >
-              <Paperclip className="w-5 h-5 text-gray-600" />
-            </button>
-            <SpeechRecognitionComponent
-              setNextTextToSpeak={handleSpeechDone}
-              setSpeakingText={setMessage}
-            />
-            <button onClick={onSubmit}
-              type="submit"
-              className="p-1 hover:bg-gray-100 rounded-full transition-colors"
-            >
-              <Send className="w-5 h-5 text-purple-600" />
-            </button>
-          </div>
+        </div>
+        <div className="flex items-center gap-0.5">
+          <button
+            type="button"
+            className="p-1.5 hover:bg-gray-100 rounded-full transition-colors"
+          >
+            <Paperclip className="w-6 h-6 text-[#252526]" />
+          </button>
+          <SpeechRecognitionComponent
+            setNextTextToSpeak={handleSpeechDone}
+            setSpeakingText={setMessage}
+          />
+          <button 
+            onClick={onSubmit}
+            type="submit"
+            className="bg-[#d3d3d3] rounded-[24px] w-9 h-9 flex items-center justify-center hover:bg-[#c0c0c0] transition-colors disabled:opacity-50"
+            disabled={!message.trim()}
+          >
+            <Send className="w-6 h-6 text-white" />
+          </button>
         </div>
       </div>
     </div>
