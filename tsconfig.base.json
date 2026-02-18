@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@frontai/api-library": ["libs/api-library/src/index.ts"],
+      "@frontai/mcp-types": ["libs/mcp-types/src/index.ts"],
       "@frontai/registry": ["libs/registry/src/index.ts"],
       "@frontai/registry/*": ["libs/registry/src/*"],
       "@frontai/types": ["libs/types/src/index.ts"],

@@ -1,0 +1,23 @@
+{
+  "servers": [
+    {
+      "name": "ui-components",
+      "transport": "stdio",
+      "command": "node",
+      "args": ["dist/apps/mcp-servers/ui-components/main.js"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "data-sources",
+      "transport": "stdio",
+      "command": "node",
+      "args": ["dist/apps/mcp-servers/data-sources/main.js"],
+      "env": {
+        "NODE_ENV": "production",
+        "API_URL": "https://jsonplaceholder.typicode.com"
+      }
+    }
+  ]
+}

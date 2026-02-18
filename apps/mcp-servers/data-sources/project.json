@@ -1,0 +1,29 @@
+{
+  "name": "mcp-data-sources",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mcp-servers/data-sources/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/mcp-servers/data-sources",
+        "main": "apps/mcp-servers/data-sources/src/main.ts",
+        "tsConfig": "apps/mcp-servers/data-sources/tsconfig.app.json",
+        "webpackConfig": "apps/mcp-servers/data-sources/webpack.config.js",
+        "generatePackageJson": true
+      },
+      "configurations": {
+        "production": {
+          "optimization": true,
+          "extractLicenses": true,
+          "inspect": false
+        }
+      }
+    }
+  },
+  "tags": []
+}

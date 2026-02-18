@@ -1,0 +1,39 @@
+{
+  "name": "mcp-ui-components",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mcp-servers/ui-components/src",
+  "projectType": "application",
+  "tags": ["type:mcp-server"],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/mcp-servers/ui-components",
+        "main": "apps/mcp-servers/ui-components/src/main.ts",
+        "tsConfig": "apps/mcp-servers/ui-components/tsconfig.json",
+        "format": ["esm"],
+        "bundle": true,
+        "platform": "node",
+        "target": "node18",
+        "generatePackageJson": true,
+        "external": [
+          "@modelcontextprotocol/sdk",
+          "zod",
+          "zod-to-json-schema"
+        ],
+        "esbuildOptions": {
+          "banner": {
+            "js": "#!/usr/bin/env node"
+          }
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "options": {
+        "buildTarget": "mcp-ui-components:build"
+      }
+    }
+  }
+}

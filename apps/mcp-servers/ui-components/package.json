@@ -1,0 +1,8 @@
+{
+  "name": "@frontai/mcp-ui-components",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "mcp-ui-components": "./main.js"
+  }
+}

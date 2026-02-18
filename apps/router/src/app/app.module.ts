@@ -5,11 +5,13 @@ import { OpenAiController } from './openia/openai.controller';
 import { OpenAiService } from './openia/openai.service';
 import { ConfigModule } from '@nestjs/config';
 import { ChatHistoryService } from './services/chat-history.service';
+import { McpController } from './mcp/mcp.controller';
+import { McpOrchestratorService } from './mcp/mcp-orchestrator.service';
 
 @Module({
   imports: [ConfigModule.forRoot()],
-  controllers: [AzureOpenAIController, OpenAiController],
-  providers: [AzureOpenAIService, OpenAiService, ChatHistoryService],
+  controllers: [AzureOpenAIController, OpenAiController, McpController],
+  providers: [AzureOpenAIService, OpenAiService, ChatHistoryService, McpOrchestratorService],
 })
 export class AppModule {
 }

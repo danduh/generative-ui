@@ -1,0 +1,19 @@
+{
+  "name": "mcp-types",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/mcp-types/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/mcp-types",
+        "main": "libs/mcp-types/src/index.ts",
+        "tsConfig": "libs/mcp-types/tsconfig.lib.json",
+        "assets": ["libs/mcp-types/*.md"]
+      }
+    }
+  }
+}
